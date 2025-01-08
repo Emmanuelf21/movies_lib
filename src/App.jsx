@@ -8,7 +8,6 @@ function App() {
     return (
     <div className="App">
       <NavBar />
-      <h2>Movies Library</h2>
       {/* Outlet retora a saida de cara path */}
       <Outlet/>
     </div>
