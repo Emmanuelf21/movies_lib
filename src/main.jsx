@@ -11,11 +11,12 @@ import './index.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <App/>
     <BrowserRouter>
       <Routes>
         <Route element={<App />}>
         {/* 'movie/:id' está recebendo um id dinâmico */}
-          <Route path='https://emmanuelf21.github.io/movies_lib/' element={<Home />}/>
+          <Route path='movies_lib' element={<Home />}/>
           <Route path='movie/:id' element={<Movie />}/>
           <Route path='search' element={<Search />}/>
         </Route>
