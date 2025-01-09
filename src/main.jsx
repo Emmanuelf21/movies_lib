@@ -15,7 +15,7 @@ createRoot(document.getElementById('root')).render(
       <Routes>
         <Route element={<App />}>
         {/* 'movie/:id' está recebendo um id dinâmico */}
-          <Route path='movies_lib' element={<Home />}/>
+          <Route path='https://emmanuelf21.github.io/movies_lib/' element={<Home />}/>
           <Route path='movie/:id' element={<Movie />}/>
           <Route path='search' element={<Search />}/>
         </Route>
