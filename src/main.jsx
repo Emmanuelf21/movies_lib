@@ -11,7 +11,6 @@ import './index.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App/>
     <BrowserRouter>
       <Routes>
         <Route element={<App />}>
@@ -22,5 +21,5 @@ createRoot(document.getElementById('root')).render(
         </Route>
       </Routes>
     </BrowserRouter>
-  </StrictMode>,
+  </StrictMode>
 )
