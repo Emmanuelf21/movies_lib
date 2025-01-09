@@ -13,9 +13,9 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route element={<App />}>
+        <Route path='/movies_lib/' element={<App />}>
         {/* 'movie/:id' está recebendo um id dinâmico */}
-          <Route path='movies_lib' element={<Home />}/>
+          <Route path='/movies_lib/' element={<Home />}/>
           <Route path='movie/:id' element={<Movie />}/>
           <Route path='search' element={<Search />}/>
         </Route>
