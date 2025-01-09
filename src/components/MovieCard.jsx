@@ -16,7 +16,8 @@ const MovieCard = ({ movie, showLink = true }) => {
             <p>
                 <FaVoteYea />Votos: {movie.vote_count}
             </p>
-            {showLink && <Link to={`/movie/${movie.id}`}>Detalhes</Link>}
+            {/* faz o redirecionamento para os detalhes do filme e passa o id na url */}
+            {showLink && <Link to={`/movie/${movie.id}`}>Detalhes</Link>} 
         </div>
     )
 }
