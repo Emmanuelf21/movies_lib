@@ -8,12 +8,14 @@ import Movie from './pages/Movie.jsx';
 import Search from './pages/Search.jsx';
 
 import './index.css'
+import NavBar from './components/NavBar.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
+      <NavBar />
       <Routes>
-        <Route path='/movies_lib/' element={<App />}>
+        <Route element={<App />}>
         {/* 'movie/:id' está recebendo um id dinâmico */}
           <Route path='/movies_lib/' element={<Home />}/>
           <Route path='movie/:id' element={<Movie />}/>
