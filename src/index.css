@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     /* border-box impede que o elemento filho ultrapasse o tamanho do elemento pai */
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 body{
