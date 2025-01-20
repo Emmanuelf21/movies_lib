@@ -20,7 +20,6 @@ const Home = () => {
 
   const handleClick = async (e) => {
     const op = e.target.name;
-    console.log(op);
     if (pagina == 1 && op === '-') {
       setPagina(pagina);
     }

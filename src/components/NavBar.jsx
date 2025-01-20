@@ -13,7 +13,7 @@ const NavBar = () => {
         if(!search) return 
 
         // passa um valor para a busca e redireciona para a página de busca
-        navigate(`/search?q=${search}`, { replace: true });
+        navigate(`/search?q=${search}&page=1`, { replace: true });
         setSearch(""); 
     }
 
